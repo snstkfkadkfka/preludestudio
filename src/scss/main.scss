@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 /* reset */
+
 *{margin: 0;padding: 0;}
 a{text-decoration: none;color: inherit;}
 li{list-style: none;}
@@ -52,7 +53,7 @@ body{font: 12px "Noto Sans KR", sans-serif;}
   box-sizing: border-box;
   position: relative;
   min-height:100vh;
-  background-image:linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5)), url(../images/bg.png);
+  background-image:linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5)), url(../images/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -163,7 +164,7 @@ body.about{
   }
   header{
     height: 200px;
-    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/image2_1.png);
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/image2_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -287,7 +288,7 @@ body.staticnery{
     background: none;
   }
   header{
-    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/staticnery.png);
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/staticnery.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -371,7 +372,7 @@ body.contact{
     background: none;
   }
   header{
-    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/about1.png);
+    background-image:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.3)) ,url(../images/about1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
