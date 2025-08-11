@@ -1,0 +1,23 @@
+{
+  "name": "potopolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel bundler index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.15.4",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5"
+  }
+  
+}
